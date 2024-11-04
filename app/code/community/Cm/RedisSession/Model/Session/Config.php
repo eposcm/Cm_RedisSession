@@ -252,4 +252,10 @@ class Cm_RedisSession_Model_Session_Config implements \Cm\RedisSession\Handler\C
     {
         return $this->config->getData('sentinel_connect_retries');
     }
+
+    public function getRetries()
+    {
+        // !todo Implement getRetries() method
+        return 0;
+    }
 }
